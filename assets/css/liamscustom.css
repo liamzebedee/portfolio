@@ -1,9 +1,15 @@
+
+
 .text {
 	font-size: 1.4em;
 }
 
 .button {
 	margin: 0 0 2em 0;
+}
+
+#main {
+	padding-top: 2em;
 }
 
 header ul {
@@ -17,4 +23,25 @@ header ul {
 #projects img {
 	max-width: 12em;
 	max-height: 12em;
+}
+
+
+
+.intro {
+	display: flex;
+}
+
+.intro h1 {
+	    flex: 0.8;
+}
+.intro .profile-dp {
+	width: 64px;
+    height: 64px;
+    /* float: left; */
+    flex: 0.2;
+    /* flex-direction: initial; */
+    /* display: inline-flex; */
+    flex-grow: 0;
+    border-radius: 1em;
+    /* align-self: flex-start; */
 }
