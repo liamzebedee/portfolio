@@ -5,3 +5,16 @@
 .button {
 	margin: 0 0 2em 0;
 }
+
+header ul {
+    margin-top: -1em;}
+
+.tiles {
+	    margin: 0 0 2em 0;
+}
+
+
+#projects img {
+	max-width: 12em;
+	max-height: 12em;
+}
